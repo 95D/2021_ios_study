@@ -79,11 +79,6 @@ iOSInjectionProject/
 # Xcode
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-
-
-
-
-
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
@@ -146,4 +141,6 @@ Dependencies/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/swift,xcode,objective-c,cocoapods
+### Mac ###
+# .DS_Store
+.DS_Store
