@@ -11,7 +11,7 @@ private let TITLE_EXAMPLES_01 = "Examples 01"
 struct Examples01: View {
     var body: some View {
         VStack {
-            // TODO: Not yet implemented
+            SwiftDiceRollView.navigationLink()
         }.navigationTitle(TITLE_EXAMPLES_01)
     }
     

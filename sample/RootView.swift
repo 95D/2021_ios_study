@@ -10,7 +10,7 @@ import SwiftUI
 struct RootView: View {
     var body: some View {
         VStack {
-            // TODO: Not yet implemented
+            Examples01.navigationLink()
         }
     }
 }
