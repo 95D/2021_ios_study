@@ -12,6 +12,7 @@ struct Examples01: View {
     var body: some View {
         VStack {
             SwiftDiceRollView.navigationLink()
+            DiceRollViewControllerRepresentation.navigationLink()
         }.navigationTitle(TITLE_EXAMPLES_01)
     }
     
