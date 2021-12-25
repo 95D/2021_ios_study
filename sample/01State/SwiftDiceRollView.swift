@@ -8,27 +8,19 @@
 import SwiftUI
 
 private let TITLE_SWIFT_DICE_ROLL_VIEW_SWIFTUI = "01: State > Dice roll (SwiftUI)"
+
 struct SwiftDiceRollView: View {
-    @State
-    var diceNumber: Int = 0
-    
-    var diceText: String {
-        diceNumber == 0 ? "??" : String(diceNumber)
-    }
+    @StateObject
+    var dice: Dice = Dice()
     
     var body: some View {
         VStack {
             Text("Dice roll")
-            Text(diceText)
-            Button("Roll!") { rollDice() }
+            Text(dice.currentNumber)
+            Button("Roll!") { dice.roll() }
         }
         .navigationTitle(TITLE_SWIFT_DICE_ROLL_VIEW_SWIFTUI)
         .navigationBarTitleDisplayMode(.inline)
-        
-    }
-    
-    private func rollDice() {
-        diceNumber = Int(arc4random() % 6) + 1
     }
     
     static func navigationLink() -> some View {
