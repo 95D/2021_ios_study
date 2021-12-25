@@ -13,11 +13,22 @@
 		CE351D9C2753AF0F008488B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE351D9B2753AF0F008488B0 /* Preview Assets.xcassets */; };
 		CE52FFD7276262E00008E89C /* SwiftDiceRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52FFD6276262E00008E89C /* SwiftDiceRollView.swift */; };
 		CE52FFD927626A300008E89C /* Examples01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52FFD827626A300008E89C /* Examples01.swift */; };
+		CE66C5F727773CF900DB6021 /* sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66C5F627773CF900DB6021 /* sampleTests.swift */; };
 		CE77851D27649130002D6101 /* DiceRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77851C27649130002D6101 /* DiceRollViewController.swift */; };
 		CE77851F27649165002D6101 /* DiceRollViewControllerRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77851E27649165002D6101 /* DiceRollViewControllerRepresentation.swift */; };
 		CE778521276491E0002D6101 /* DiceRollStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE778520276491E0002D6101 /* DiceRollStoryboard.storyboard */; };
 		CEA8112C2763A5D800206A82 /* VersionModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8112B2763A5D800206A82 /* VersionModalView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE66C5F827773CF900DB6021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE351D892753AF0D008488B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE351D902753AF0D008488B0;
+			remoteInfo = sample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE351D912753AF0D008488B0 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +38,8 @@
 		CE351D9B2753AF0F008488B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE52FFD6276262E00008E89C /* SwiftDiceRollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDiceRollView.swift; sourceTree = "<group>"; };
 		CE52FFD827626A300008E89C /* Examples01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples01.swift; sourceTree = "<group>"; };
+		CE66C5F427773CF900DB6021 /* sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66C5F627773CF900DB6021 /* sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTests.swift; sourceTree = "<group>"; };
 		CE778517276486DF002D6101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CE77851C27649130002D6101 /* DiceRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollViewController.swift; sourceTree = "<group>"; };
 		CE77851E27649165002D6101 /* DiceRollViewControllerRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollViewControllerRepresentation.swift; sourceTree = "<group>"; };
@@ -42,6 +55,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE66C5F127773CF900DB6021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				CE351D932753AF0D008488B0 /* sample */,
+				CE66C5F527773CF900DB6021 /* sampleTests */,
 				CE351D922753AF0D008488B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CE351D912753AF0D008488B0 /* sample.app */,
+				CE66C5F427773CF900DB6021 /* sampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +117,14 @@
 			path = 01State;
 			sourceTree = "<group>";
 		};
+		CE66C5F527773CF900DB6021 /* sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE66C5F627773CF900DB6021 /* sampleTests.swift */,
+			);
+			path = sampleTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +145,24 @@
 			productReference = CE351D912753AF0D008488B0 /* sample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CE66C5F327773CF900DB6021 /* sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE66C5FC27773CF900DB6021 /* Build configuration list for PBXNativeTarget "sampleTests" */;
+			buildPhases = (
+				CE66C5F027773CF900DB6021 /* Sources */,
+				CE66C5F127773CF900DB6021 /* Frameworks */,
+				CE66C5F227773CF900DB6021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE66C5F927773CF900DB6021 /* PBXTargetDependency */,
+			);
+			name = sampleTests;
+			productName = sampleTests;
+			productReference = CE66C5F427773CF900DB6021 /* sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,11 +170,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					CE351D902753AF0D008488B0 = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					CE66C5F327773CF900DB6021 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CE351D902753AF0D008488B0;
 					};
 				};
 			};
@@ -144,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				CE351D902753AF0D008488B0 /* sample */,
+				CE66C5F327773CF900DB6021 /* sampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +209,13 @@
 				CE778521276491E0002D6101 /* DiceRollStoryboard.storyboard in Resources */,
 				CE351D9C2753AF0F008488B0 /* Preview Assets.xcassets in Resources */,
 				CE351D992753AF0F008488B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE66C5F227773CF900DB6021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +236,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE66C5F027773CF900DB6021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE66C5F727773CF900DB6021 /* sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE66C5F927773CF900DB6021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE351D902753AF0D008488B0 /* sample */;
+			targetProxy = CE66C5F827773CF900DB6021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CE351D9D2753AF0F008488B0 /* Debug */ = {
@@ -357,6 +433,44 @@
 			};
 			name = Release;
 		};
+		CE66C5FA27773CF900DB6021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274WY66X79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = viento.sampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample.app/sample";
+			};
+			name = Debug;
+		};
+		CE66C5FB27773CF900DB6021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274WY66X79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = viento.sampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample.app/sample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -374,6 +488,15 @@
 			buildConfigurations = (
 				CE351DA02753AF0F008488B0 /* Debug */,
 				CE351DA12753AF0F008488B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE66C5FC27773CF900DB6021 /* Build configuration list for PBXNativeTarget "sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66C5FA27773CF900DB6021 /* Debug */,
+				CE66C5FB27773CF900DB6021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
