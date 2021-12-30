@@ -7,55 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06AF18E0788897CCA82874BFFC94C7EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC258C2AA19CD3149CA5F6755B3FAA6 /* Preview Assets.xcassets */; };
-		1C0FDCB944C778C17207D5465C024719 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7987C5015DFDE66CEDA6FF04D9F0378 /* SampleApp.swift */; };
-		3DFB263AB97178A13A8A14E0585B3239 /* DiceRollViewControllerRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3D3AEB14E9593A5C4B236B2CFFF2 /* DiceRollViewControllerRepresentation.swift */; };
-		541E189D7936DA7FBDBC6BFE58E60E59 /* SwiftDiceRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC99775E187AF4A8F1F34C8BF7DB3A6 /* SwiftDiceRollView.swift */; };
-		69E3A58ED44CA80FE93FBAC57745B869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DDA968289BAEEFEEE620B0CBA68F39 /* Assets.xcassets */; };
-		7C6DD15D3D29963F8B6E36A4ED4425A8 /* Examples01.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D3BEE1F66BEB40E90AE5221C4E3DE0 /* Examples01.swift */; };
-		9ABA7E13164FCE35835B5E6FD1442298 /* sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9F060F7EB9E7C49D46DC891D65C90 /* sampleTests.swift */; };
-		A6E97B0DAC39A2612BF973FFE998B1DE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C4B6D591B738C0D8E5A9172F831C6 /* RootView.swift */; };
-		AA89EFEBD5C0AA3F36CF0FF664EAC40D /* DiceRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54952C839661B46D3AC4624C9DB1149 /* DiceRollViewController.swift */; };
-		AF1FBEB2B322CDBA8E57FA3AD50F7E1C /* DiceRollStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304F38318EBD76548360F45DFB9CEB1 /* DiceRollStoryboard.storyboard */; };
-		E4718F533D2F3C588FB18D8AC4383C82 /* VersionModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A8324F922A618098926BCCEF3CE18 /* VersionModalView.swift */; };
+		CE351D952753AF0D008488B0 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE351D942753AF0D008488B0 /* SampleApp.swift */; };
+		CE351D972753AF0D008488B0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE351D962753AF0D008488B0 /* RootView.swift */; };
+		CE351D992753AF0F008488B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE351D982753AF0F008488B0 /* Assets.xcassets */; };
+		CE351D9C2753AF0F008488B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE351D9B2753AF0F008488B0 /* Preview Assets.xcassets */; };
+		CE52FFD7276262E00008E89C /* SwiftDiceRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52FFD6276262E00008E89C /* SwiftDiceRollView.swift */; };
+		CE52FFD927626A300008E89C /* Examples01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52FFD827626A300008E89C /* Examples01.swift */; };
+		CE66C5F727773CF900DB6021 /* sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66C5F627773CF900DB6021 /* sampleTests.swift */; };
+		CE77851D27649130002D6101 /* DiceRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77851C27649130002D6101 /* DiceRollViewController.swift */; };
+		CE77851F27649165002D6101 /* DiceRollViewControllerRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77851E27649165002D6101 /* DiceRollViewControllerRepresentation.swift */; };
+		CE778521276491E0002D6101 /* DiceRollStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE778520276491E0002D6101 /* DiceRollStoryboard.storyboard */; };
+		CEA8112C2763A5D800206A82 /* VersionModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8112B2763A5D800206A82 /* VersionModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6DA3EA798421C56F2FA9AEEA0C660A16 /* PBXContainerItemProxy */ = {
+		CE66C5F827773CF900DB6021 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 78B005CE75CCB91BBCA693E3BC03B585 /* Project object */;
+			containerPortal = CE351D892753AF0D008488B0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F9B373D2F1C212B6353966DEA3E6425;
+			remoteGlobalIDString = CE351D902753AF0D008488B0;
 			remoteInfo = sample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1843F4FC31CA4C04A7AFC523BF71C07D /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21EC6B345B3A3309F3DB904F547C9A21 /* sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ECD3D3AEB14E9593A5C4B236B2CFFF2 /* DiceRollViewControllerRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollViewControllerRepresentation.swift; sourceTree = "<group>"; };
-		5304F38318EBD76548360F45DFB9CEB1 /* DiceRollStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiceRollStoryboard.storyboard; sourceTree = "<group>"; };
-		6F2950028BB34D3A289731E51DC42F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A76C4B6D591B738C0D8E5A9172F831C6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		ADC258C2AA19CD3149CA5F6755B3FAA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B3DDA968289BAEEFEEE620B0CBA68F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C7987C5015DFDE66CEDA6FF04D9F0378 /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
-		E1D3BEE1F66BEB40E90AE5221C4E3DE0 /* Examples01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples01.swift; sourceTree = "<group>"; };
-		EEC99775E187AF4A8F1F34C8BF7DB3A6 /* SwiftDiceRollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDiceRollView.swift; sourceTree = "<group>"; };
-		F54952C839661B46D3AC4624C9DB1149 /* DiceRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollViewController.swift; sourceTree = "<group>"; };
-		F87A8324F922A618098926BCCEF3CE18 /* VersionModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionModalView.swift; sourceTree = "<group>"; };
-		FDF9F060F7EB9E7C49D46DC891D65C90 /* sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTests.swift; sourceTree = "<group>"; };
+		CE351D912753AF0D008488B0 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE351D942753AF0D008488B0 /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
+		CE351D962753AF0D008488B0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CE351D982753AF0F008488B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE351D9B2753AF0F008488B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE52FFD6276262E00008E89C /* SwiftDiceRollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDiceRollView.swift; sourceTree = "<group>"; };
+		CE52FFD827626A300008E89C /* Examples01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples01.swift; sourceTree = "<group>"; };
+		CE66C5F427773CF900DB6021 /* sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66C5F627773CF900DB6021 /* sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTests.swift; sourceTree = "<group>"; };
+		CE778517276486DF002D6101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE77851C27649130002D6101 /* DiceRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollViewController.swift; sourceTree = "<group>"; };
+		CE77851E27649165002D6101 /* DiceRollViewControllerRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollViewControllerRepresentation.swift; sourceTree = "<group>"; };
+		CE778520276491E0002D6101 /* DiceRollStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiceRollStoryboard.storyboard; sourceTree = "<group>"; };
+		CEA8112B2763A5D800206A82 /* VersionModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EB3A5E32896F4374692C0F5102821165 /* Frameworks */ = {
+		CE351D8E2753AF0D008488B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E80C728E70CD68C1F75D363D604450CF /* Frameworks */ = {
+		CE66C5F127773CF900DB6021 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,62 +65,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		015606ED4A628FB8F5EE2795D7EB07D0 = {
+		CE351D882753AF0D008488B0 = {
 			isa = PBXGroup;
 			children = (
-				9085DFFD7E387BC5F2C7D1576FA21B41 /* Products */,
-				F7133A8C0BFB8DF69FBE5DC533BB238E /* sample */,
-				423DE6B5825D1BBD00DBC2BF2580D967 /* sampleTests */,
+				CE351D932753AF0D008488B0 /* sample */,
+				CE66C5F527773CF900DB6021 /* sampleTests */,
+				CE351D922753AF0D008488B0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9085DFFD7E387BC5F2C7D1576FA21B41 /* Products */ = {
+		CE351D922753AF0D008488B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1843F4FC31CA4C04A7AFC523BF71C07D /* sample.app */,
-				21EC6B345B3A3309F3DB904F547C9A21 /* sampleTests.xctest */,
+				CE351D912753AF0D008488B0 /* sample.app */,
+				CE66C5F427773CF900DB6021 /* sampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7133A8C0BFB8DF69FBE5DC533BB238E /* sample */ = {
+		CE351D932753AF0D008488B0 /* sample */ = {
 			isa = PBXGroup;
 			children = (
-				05905E459F54F74BB7A0118D0BB2840D /* 01State */,
-				BEA7EA9203EC92B45A75C21CBD0C6A72 /* Preview Content */,
-				B3DDA968289BAEEFEEE620B0CBA68F39 /* Assets.xcassets */,
-				6F2950028BB34D3A289731E51DC42F22 /* Info.plist */,
-				A76C4B6D591B738C0D8E5A9172F831C6 /* RootView.swift */,
-				C7987C5015DFDE66CEDA6FF04D9F0378 /* SampleApp.swift */,
-				F87A8324F922A618098926BCCEF3CE18 /* VersionModalView.swift */,
+				CE778517276486DF002D6101 /* Info.plist */,
+				CE52FFD5276262CC0008E89C /* 01State */,
+				CE351D942753AF0D008488B0 /* SampleApp.swift */,
+				CE351D962753AF0D008488B0 /* RootView.swift */,
+				CE351D982753AF0F008488B0 /* Assets.xcassets */,
+				CE351D9A2753AF0F008488B0 /* Preview Content */,
+				CEA8112B2763A5D800206A82 /* VersionModalView.swift */,
 			);
 			path = sample;
 			sourceTree = "<group>";
 		};
-		BEA7EA9203EC92B45A75C21CBD0C6A72 /* Preview Content */ = {
+		CE351D9A2753AF0F008488B0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				ADC258C2AA19CD3149CA5F6755B3FAA6 /* Preview Assets.xcassets */,
+				CE351D9B2753AF0F008488B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		05905E459F54F74BB7A0118D0BB2840D /* 01State */ = {
+		CE52FFD5276262CC0008E89C /* 01State */ = {
 			isa = PBXGroup;
 			children = (
-				5304F38318EBD76548360F45DFB9CEB1 /* DiceRollStoryboard.storyboard */,
-				F54952C839661B46D3AC4624C9DB1149 /* DiceRollViewController.swift */,
-				4ECD3D3AEB14E9593A5C4B236B2CFFF2 /* DiceRollViewControllerRepresentation.swift */,
-				E1D3BEE1F66BEB40E90AE5221C4E3DE0 /* Examples01.swift */,
-				EEC99775E187AF4A8F1F34C8BF7DB3A6 /* SwiftDiceRollView.swift */,
+				CE52FFD6276262E00008E89C /* SwiftDiceRollView.swift */,
+				CE52FFD827626A300008E89C /* Examples01.swift */,
+				CE77851C27649130002D6101 /* DiceRollViewController.swift */,
+				CE77851E27649165002D6101 /* DiceRollViewControllerRepresentation.swift */,
+				CE778520276491E0002D6101 /* DiceRollStoryboard.storyboard */,
 			);
 			path = 01State;
 			sourceTree = "<group>";
 		};
-		423DE6B5825D1BBD00DBC2BF2580D967 /* sampleTests */ = {
+		CE66C5F527773CF900DB6021 /* sampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				FDF9F060F7EB9E7C49D46DC891D65C90 /* sampleTests.swift */,
+				CE66C5F627773CF900DB6021 /* sampleTests.swift */,
 			);
 			path = sampleTests;
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F9B373D2F1C212B6353966DEA3E6425 /* sample */ = {
+		CE351D902753AF0D008488B0 /* sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88DEEDABC1BD0770B69F4C5FFC609969 /* Build configuration list for PBXNativeTarget "sample" */;
+			buildConfigurationList = CE351D9F2753AF0F008488B0 /* Build configuration list for PBXNativeTarget "sample" */;
 			buildPhases = (
-				6C92C9739B95981AACD6AFE215A81AB1 /* Sources */,
-				EB3A5E32896F4374692C0F5102821165 /* Frameworks */,
-				049DE3F0B051CDA5801CE38BECFBA958 /* Resources */,
+				CE351D8D2753AF0D008488B0 /* Sources */,
+				CE351D8E2753AF0D008488B0 /* Frameworks */,
+				CE351D8F2753AF0D008488B0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,47 +142,47 @@
 			);
 			name = sample;
 			productName = sample;
-			productReference = 1843F4FC31CA4C04A7AFC523BF71C07D /* sample.app */;
+			productReference = CE351D912753AF0D008488B0 /* sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		040E9669FE611EE7338323B7ACCEB959 /* sampleTests */ = {
+		CE66C5F327773CF900DB6021 /* sampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4101490F46A6D75B59D1199F07A1A6F9 /* Build configuration list for PBXNativeTarget "sampleTests" */;
+			buildConfigurationList = CE66C5FC27773CF900DB6021 /* Build configuration list for PBXNativeTarget "sampleTests" */;
 			buildPhases = (
-				58628912CE7406D481F5C7C3316503AA /* Sources */,
-				E80C728E70CD68C1F75D363D604450CF /* Frameworks */,
-				B46456CE4FDB70469E9DC113043A3C09 /* Resources */,
+				CE66C5F027773CF900DB6021 /* Sources */,
+				CE66C5F127773CF900DB6021 /* Frameworks */,
+				CE66C5F227773CF900DB6021 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E4A73DF3D70D869E80781CEAB70E902 /* PBXTargetDependency */,
+				CE66C5F927773CF900DB6021 /* PBXTargetDependency */,
 			);
 			name = sampleTests;
 			productName = sampleTests;
-			productReference = 21EC6B345B3A3309F3DB904F547C9A21 /* sampleTests.xctest */;
+			productReference = CE66C5F427773CF900DB6021 /* sampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		78B005CE75CCB91BBCA693E3BC03B585 /* Project object */ = {
+		CE351D892753AF0D008488B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					4F9B373D2F1C212B6353966DEA3E6425 = {
+					CE351D902753AF0D008488B0 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					040E9669FE611EE7338323B7ACCEB959 = {
+					CE66C5F327773CF900DB6021 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 4F9B373D2F1C212B6353966DEA3E6425;
+						TestTargetID = CE351D902753AF0D008488B0;
 					};
 				};
 			};
-			buildConfigurationList = C9A951D55D5E925491D39D19F2373C2C /* Build configuration list for PBXProject "sample" */;
+			buildConfigurationList = CE351D8C2753AF0D008488B0 /* Build configuration list for PBXProject "sample" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,29 +190,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 015606ED4A628FB8F5EE2795D7EB07D0;
-			productRefGroup = 9085DFFD7E387BC5F2C7D1576FA21B41 /* Products */;
+			mainGroup = CE351D882753AF0D008488B0;
+			productRefGroup = CE351D922753AF0D008488B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F9B373D2F1C212B6353966DEA3E6425 /* sample */,
-				040E9669FE611EE7338323B7ACCEB959 /* sampleTests */,
+				CE351D902753AF0D008488B0 /* sample */,
+				CE66C5F327773CF900DB6021 /* sampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		049DE3F0B051CDA5801CE38BECFBA958 /* Resources */ = {
+		CE351D8F2753AF0D008488B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E3A58ED44CA80FE93FBAC57745B869 /* Assets.xcassets in Resources */,
-				AF1FBEB2B322CDBA8E57FA3AD50F7E1C /* DiceRollStoryboard.storyboard in Resources */,
-				06AF18E0788897CCA82874BFFC94C7EA /* Preview Assets.xcassets in Resources */,
+				CE778521276491E0002D6101 /* DiceRollStoryboard.storyboard in Resources */,
+				CE351D9C2753AF0F008488B0 /* Preview Assets.xcassets in Resources */,
+				CE351D992753AF0F008488B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B46456CE4FDB70469E9DC113043A3C09 /* Resources */ = {
+		CE66C5F227773CF900DB6021 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,40 +222,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6C92C9739B95981AACD6AFE215A81AB1 /* Sources */ = {
+		CE351D8D2753AF0D008488B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA89EFEBD5C0AA3F36CF0FF664EAC40D /* DiceRollViewController.swift in Sources */,
-				3DFB263AB97178A13A8A14E0585B3239 /* DiceRollViewControllerRepresentation.swift in Sources */,
-				7C6DD15D3D29963F8B6E36A4ED4425A8 /* Examples01.swift in Sources */,
-				A6E97B0DAC39A2612BF973FFE998B1DE /* RootView.swift in Sources */,
-				1C0FDCB944C778C17207D5465C024719 /* SampleApp.swift in Sources */,
-				541E189D7936DA7FBDBC6BFE58E60E59 /* SwiftDiceRollView.swift in Sources */,
-				E4718F533D2F3C588FB18D8AC4383C82 /* VersionModalView.swift in Sources */,
+				CE77851F27649165002D6101 /* DiceRollViewControllerRepresentation.swift in Sources */,
+				CE351D972753AF0D008488B0 /* RootView.swift in Sources */,
+				CE52FFD927626A300008E89C /* Examples01.swift in Sources */,
+				CE77851D27649130002D6101 /* DiceRollViewController.swift in Sources */,
+				CE52FFD7276262E00008E89C /* SwiftDiceRollView.swift in Sources */,
+				CE351D952753AF0D008488B0 /* SampleApp.swift in Sources */,
+				CEA8112C2763A5D800206A82 /* VersionModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58628912CE7406D481F5C7C3316503AA /* Sources */ = {
+		CE66C5F027773CF900DB6021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABA7E13164FCE35835B5E6FD1442298 /* sampleTests.swift in Sources */,
+				CE66C5F727773CF900DB6021 /* sampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E4A73DF3D70D869E80781CEAB70E902 /* PBXTargetDependency */ = {
+		CE66C5F927773CF900DB6021 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F9B373D2F1C212B6353966DEA3E6425 /* sample */;
-			targetProxy = 6DA3EA798421C56F2FA9AEEA0C660A16 /* PBXContainerItemProxy */;
+			target = CE351D902753AF0D008488B0 /* sample */;
+			targetProxy = CE66C5F827773CF900DB6021 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02D86A77683067BEAB61588F0D36BF5C /* Debug */ = {
+		CE351D9D2753AF0F008488B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		493993D58DDC63E396BE2261B1D252EF /* Release */ = {
+		CE351D9E2753AF0F008488B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,7 +371,7 @@
 			};
 			name = Release;
 		};
-		C571AFF27EBAF39098ADE5BFBE8839DD /* Debug */ = {
+		CE351DA02753AF0F008488B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -402,7 +402,7 @@
 			};
 			name = Debug;
 		};
-		84E4CA8771DA82C9253831BBEF7F419C /* Release */ = {
+		CE351DA12753AF0F008488B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -433,7 +433,7 @@
 			};
 			name = Release;
 		};
-		6378A7A0BFE18150434C91FAD357D0C8 /* Debug */ = {
+		CE66C5FA27773CF900DB6021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		32C9B380CFB9E2B6A7EF24E7305A8D93 /* Release */ = {
+		CE66C5FB27773CF900DB6021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,34 +474,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9A951D55D5E925491D39D19F2373C2C /* Build configuration list for PBXProject "sample" */ = {
+		CE351D8C2753AF0D008488B0 /* Build configuration list for PBXProject "sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02D86A77683067BEAB61588F0D36BF5C /* Debug */,
-				493993D58DDC63E396BE2261B1D252EF /* Release */,
+				CE351D9D2753AF0F008488B0 /* Debug */,
+				CE351D9E2753AF0F008488B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88DEEDABC1BD0770B69F4C5FFC609969 /* Build configuration list for PBXNativeTarget "sample" */ = {
+		CE351D9F2753AF0F008488B0 /* Build configuration list for PBXNativeTarget "sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C571AFF27EBAF39098ADE5BFBE8839DD /* Debug */,
-				84E4CA8771DA82C9253831BBEF7F419C /* Release */,
+				CE351DA02753AF0F008488B0 /* Debug */,
+				CE351DA12753AF0F008488B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4101490F46A6D75B59D1199F07A1A6F9 /* Build configuration list for PBXNativeTarget "sampleTests" */ = {
+		CE66C5FC27773CF900DB6021 /* Build configuration list for PBXNativeTarget "sampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6378A7A0BFE18150434C91FAD357D0C8 /* Debug */,
-				32C9B380CFB9E2B6A7EF24E7305A8D93 /* Release */,
+				CE66C5FA27773CF900DB6021 /* Debug */,
+				CE66C5FB27773CF900DB6021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 78B005CE75CCB91BBCA693E3BC03B585 /* Project object */;
+	rootObject = CE351D892753AF0D008488B0 /* Project object */;
 }
