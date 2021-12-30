@@ -136,7 +136,7 @@ Dependencies/
 
 ### Xcode Patch ###
 *.xcodeproj
-*.xcodeworkspace
+*.xcworkspace
 Derived
 ### Mac ###
 # .DS_Store
