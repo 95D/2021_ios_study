@@ -15,6 +15,7 @@ struct RootView: View {
         VStack {
             Button("Show version") { isShownVersionModal.toggle() }
             Examples01.navigationLink()
+            Examples02.navigationLink()
         }
         .sheet(isPresented: $isShownVersionModal) {
             VersionModalView(isShownModal: $isShownVersionModal)
