@@ -34,7 +34,7 @@ extension Project {
                 bundleId: bundleIdBase,
                 infoPlist: .default,
                 sources: ["Targets/\(name)/Sources/**"],
-                resources: [],
+                resources: ["Targets/\(name)/Resources/Storyboards/**"],
                 dependencies: [])
         let tests = Target(name: "\(name)Tests",
                 platform: platform,
