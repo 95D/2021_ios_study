@@ -23,3 +23,9 @@ struct Examples01: View {
         )
     }
 }
+
+struct Examples01_Previews: PreviewProvider {
+    static var previews: some View {
+        Examples01()
+    }
+}
